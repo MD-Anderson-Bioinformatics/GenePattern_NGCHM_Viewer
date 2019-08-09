@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script type="text/javascript" src="gpUtil.js"></script>
+</head>
+<body>
+    <div id="NGCHM" style="width:100%; height:500px">
+    <div id='NGCHMEmbed' style="background-color:white; height:93% ; width:99%; border: 2px solid gray; padding: 5px"></div>
+    </div>
+    <!-- <script type="text/javascript" src="http://www.ngchm.net/downloads/ngchmWidget-min.js"></script> -->
+    <script type="text/javascript" src="ngchmWidget-min.js "></script>
+    <script type="text/javascript">
+
+        
+        var requestParams = gpUtil.parseQueryString();
+        var ngchm = requestParams["ngchm"];
+        // document.getElementById('summary_chm').style.height=document.getElementById("NGCHM").clientWidth*0.75+"px";
+
+        var ajaxUrl=ngchm[0]
+        var xmlhttp=new XMLHttpRequest();
+        xmlhttp.open("GET", ajaxUrl, true);
+        xmlhttp.responseType = 'blob';
+        xmlhttp.onload = function(e) {
+            if (this.status == 200) {
+                var blob = new Blob([this.response], {type: 'compress/zip'});
+                document.getElementById('loader').style.display = '';
+                // NgChm.UTIL.resetCHM();
+                NgChm.UTIL.displayFileModeCHM(blob)
+                document.getElementById("container").addEventListener('wheel', NgChm.SEL.handleScroll, false);
+                document.getElementById("detail_canvas").focus();
+        
+            }
+        };
+        xmlhttp.send()
+
+    </script>
+    <style>
+
+        #summary_chm{
+            min-height:350px;
+        }
+    </style>
+</body>
+</html>

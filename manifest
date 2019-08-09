@@ -1,0 +1,33 @@
+#NGCHM_Viewer
+#Fri Aug 09 15:01:56 CDT 2019
+JVMLevel=
+LSID=urn\:lsid\:mdanderson.org\:genepatternmodules\:2\:1
+author=jma7;jma7
+categories=javascript
+commandLine=NGCHM.html ?   <ngchm>
+cpuType=any
+description=A NGCHM Viewer
+fileFormat=
+job.docker.image=
+language=any
+name=NGCHM_Viewer
+os=any
+p1_MODE=
+p1_TYPE=TEXT
+p1_default_value=
+p1_description=
+p1_fileFormat=
+p1_flag=
+p1_name=ngchm
+p1_numValues=1..1
+p1_optional=
+p1_prefix=
+p1_prefix_when_specified=
+p1_type=java.lang.String
+p1_value=
+privacy=public
+quality=development
+taskDoc=
+taskType=javascript
+userid=jma7@mdanderson.org
+version=
