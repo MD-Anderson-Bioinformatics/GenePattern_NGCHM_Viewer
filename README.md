@@ -1,6 +1,12 @@
-# GenePattern_NGCHM_Viewer
+## GenePattern_NGCHM_Viewer
 A GenePattern Module to view NGCHM in GenePattern Notebook.
 
+## Install NGCHM_Viewer module on local GenePattern Server
+1. Follow the [instructions](https://software.broadinstitute.org/cancer/software/genepattern/download/) to install GenePattern on local machine. 
+2. Click on "Modules & Piplelines" then click on "Install from zip".
+3. Upload the [NGCHM_Viewer.zip](https://github.com/MD-Anderson-Bioinformatics/GenePattern_NGCHM_Viewer/blob/master/NGCHM_Viewer.zip) file.
+
+## Use NGCHM_Viewer with GenePattern Notebook
 1. Install genepattern notebook from dockerhub.
 ```
 docker pull genepattern/genepattern-notebook
