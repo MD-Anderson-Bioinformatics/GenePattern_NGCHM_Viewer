@@ -7,7 +7,7 @@ A GenePattern Module to view NGCHM in GenePattern Notebook.
 3. Click on "Modules & Piplelines", then click on "Install from zip".
 4. Upload the [NGCHM_Viewer.zip](https://github.com/MD-Anderson-Bioinformatics/GenePattern_NGCHM_Viewer/blob/master/NGCHM_Viewer.zip) file.
 
-## Install GenePattern NoteBook manually to Jupyter Notebook
+## Install GenePattern NoteBook manually to Jupyter Notebook (Recommended)
 1. Jupyter notebook is installed in Anaconda.
 2. Install GenePattern notebook using pip.
 ```
