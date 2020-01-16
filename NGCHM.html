@@ -10,17 +10,10 @@
     <!-- <script type="text/javascript" src="http://www.ngchm.net/downloads/ngchmWidget-min.js"></script> -->
     <script type="text/javascript" src="ngchmWidget-min.js "></script>
     <script type="text/javascript">
-
         
         var requestParams = gpUtil.parseQueryString();
         var ngchm = requestParams["ngchm"];
-        // document.getElementById('summary_chm').style.height=document.getElementById("NGCHM").clientWidth*0.9+"px";
-        // var diverders=document.getElementsByClassName('resizerHelper')
-        // for (let diverder of diverders){
-        //     diverder.style.height=document.getElementById("NGCHM").clientWidth*0.8+"px";
-        // }
-        
-       
+
         var ajaxUrl=ngchm[0]
         var xmlhttp=new XMLHttpRequest();
         xmlhttp.open("GET", ajaxUrl, true);
@@ -29,7 +22,6 @@
             if (this.status == 200) {
                 var blob = new Blob([this.response], {type: 'compress/zip'});
                 document.getElementById('loader').style.display = '';
-                // NgChm.UTIL.resetCHM();
                 NgChm.UTIL.displayFileModeCHM(blob)
                 document.getElementById("container").addEventListener('wheel', NgChm.SEL.handleScroll, false);
                 document.getElementById("detail_canvas").focus();
