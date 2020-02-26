@@ -1,9 +1,22 @@
-## GenePattern_NGCHM_Viewer
-A GenePattern Module to view NGCHM in GenePattern Notebook.
+## GenePattern NGCHM Viewer
+A GenePattern Module to view Next-Generation Clustered Heat Maps (NG-CHMs) in GenePattern Notebook.
+For details about NG-CHM, please check [NG-CHMs website](http://www.ngchm.net/)
 
-## Install NGCHM_Viewer module on local GenePattern Server
-1. Download [GenePattern](https://github.com/genepattern/genepattern-server/releases/tag/v3.9.11-rc.4%2Bb228), double click to install on local machine. 
-2. Input Email, the app will ask to restart, double click on icon again.There is no need to install other modules if you only want to try NGCHM builder and viewer. 
-3. Click on "Modules & Piplelines", then click on "Install from zip".
-4. Upload the [NGCHM_Viewer.zip](https://github.com/MD-Anderson-Bioinformatics/GenePattern_NGCHM_Viewer/blob/master/NGCHM_Viewer.zip) file.
+## Summary
+Clustered heat maps are the most frequently used graphics for visualization of molecular profiling data in biology, appearing in many thousands of publications—but as static images.
+
+To provide more capability for exploration of large data matrices, we developed highly interactive “Next-Generation” Clustered Heat Maps (NG-CHMs). NG-CHMs enable the user to zoom and navigate dynamically and link out to dozens of external data resources and tools. NG-CHMs exploit recent advances in web technology to improve performance, provide a highly-responsive user experience, and facilitate deep exploration of the biology (or other science) behind the image.
+
+NG-CHMs include the following interactive capabilities (among many others):
+
+* Extreme zooming without loss of resolution for drill-down into big data matrices.
+* Fluent navigation.
+* Link-outs from labels or pixels to a variety of pertinent annotation resources, including GeneCards, PubMed, the Gene Ontology, Google, and cBioPortal.
+* Flexible real-time recoloring.
+* High-resolution graphics that meet the requirements of all major journals.
+* Annotation with pathway data.
+* Capture of all metadata necessary to reproduce any chosen state of the map, even months or years later.
+
+This module will take .ngchm file generated from GenePattern NGCHM_BasicBuilder or any other NGCHM Builders ([Galaxy Builder](https://github.com/MD-Anderson-Bioinformatics/NG-CHM_Galaxy),[R buidler](https://github.com/MD-Anderson-Bioinformatics/NGCHM-R) or [online builder](http://build.ngchm.net/NGCHM-web-builder/)) and display the NGCHM in jupyter notebook.
+
 
