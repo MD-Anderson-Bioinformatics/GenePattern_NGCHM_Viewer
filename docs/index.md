@@ -2,7 +2,7 @@
 A GenePattern Module to view Next-Generation Clustered Heat Maps (NG-CHMs) in GenePattern Notebook.
 For details about NG-CHM, please check [NG-CHMs website](http://www.ngchm.net/)
 
-## Summary
+## Description
 Clustered heat maps are the most frequently used graphics for visualization of molecular profiling data in biology, appearing in many thousands of publications—but as static images.
 
 To provide more capability for exploration of large data matrices, we developed highly interactive “Next-Generation” Clustered Heat Maps (NG-CHMs). NG-CHMs enable the user to zoom and navigate dynamically and link out to dozens of external data resources and tools. NG-CHMs exploit recent advances in web technology to improve performance, provide a highly-responsive user experience, and facilitate deep exploration of the biology (or other science) behind the image.
@@ -17,6 +17,10 @@ NG-CHMs include the following interactive capabilities (among many others):
 * Annotation with pathway data.
 * Capture of all metadata necessary to reproduce any chosen state of the map, even months or years later.
 
+## Input
 This module will take .ngchm file generated from GenePattern NGCHM_BasicBuilder or any other NGCHM Builders ([Galaxy Builder](https://github.com/MD-Anderson-Bioinformatics/NG-CHM_Galaxy),[R buidler](https://github.com/MD-Anderson-Bioinformatics/NGCHM-R) or [online builder](http://build.ngchm.net/NGCHM-web-builder/)) and display the NGCHM in jupyter notebook.
+
+## Output
+You could view NG-CHM inside the notebook, and perform all the operations. If you prefer a full size NG-CHM, click on the gear icon at the upper right corner of the cell, select "Pop Out Visualizer", the NG-CHM will open in another tab. For more operations on NG-CHM, please check NG-CHMs website](http://www.ngchm.net/).
 
 
