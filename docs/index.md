@@ -18,7 +18,7 @@ NG-CHMs include the following interactive capabilities (among many others):
 * Capture of all metadata necessary to reproduce any chosen state of the map, even months or years later.
 
 ## Input
-This module will take .ngchm file generated from GenePattern NGCHM_BasicBuilder or any other NGCHM Builders ([Galaxy Builder](https://github.com/MD-Anderson-Bioinformatics/NG-CHM_Galaxy),[R buidler](https://github.com/MD-Anderson-Bioinformatics/NGCHM-R) or [online builder](http://build.ngchm.net/NGCHM-web-builder/)) and display the NGCHM in jupyter notebook.
+This module will take .ngchm file generated from GenePattern [NGCHM_BasicBuilder](https://md-anderson-bioinformatics.github.io/GenePattern_NGCHM_BasicBuilder/) or any other NGCHM Builders ([Galaxy Builder](https://github.com/MD-Anderson-Bioinformatics/NG-CHM_Galaxy),[R buidler](https://github.com/MD-Anderson-Bioinformatics/NGCHM-R) or [online builder](http://build.ngchm.net/NGCHM-web-builder/)) and display the NGCHM in jupyter notebook.
 
 ## Output
 You could view NG-CHM inside the notebook, and perform all the operations. If you prefer a full size NG-CHM, click on the gear icon at the upper right corner of the cell, select "Pop Out Visualizer", the NG-CHM will open in another tab. For more operations on NG-CHM, please check NG-CHMs website](http://www.ngchm.net/).
