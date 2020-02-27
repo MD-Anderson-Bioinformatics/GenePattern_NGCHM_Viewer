@@ -12,8 +12,7 @@
                 }
             }
             if (! inIframe()){
-                document.getElementById("detail_chm").style.height="90vh"
-                document.getElementById("divider").style.height="90vh"
+                document.getElementById("container").style.height="90vh"
             }
         }
     </script>
@@ -42,8 +41,6 @@
                 NgChm.UTIL.displayFileModeCHM(blob)
                 document.getElementById("container").addEventListener('wheel', NgChm.SEL.handleScroll, false);
                 document.getElementById("detail_canvas").focus();
-                
-        
             }
         };
         xmlhttp.send()
