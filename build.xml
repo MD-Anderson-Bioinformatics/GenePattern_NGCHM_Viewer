@@ -6,7 +6,7 @@
 <target name="create-zip">
     <!-- <antcall target="prezip"/> -->
     <property name="dest.dir" value="build" />
-    <zip destfile="${dest.dir}/${ant.project.name}.zip" whenempty="fail" defaultexcludes="true">
+    <zip destfile="${dest.dir}/${ant.project.name}-1.0.zip" whenempty="fail" defaultexcludes="true">
         <fileset dir="." includes="manifest, doc.html, *.js, NGCHM.html"/>
         
     </zip>
