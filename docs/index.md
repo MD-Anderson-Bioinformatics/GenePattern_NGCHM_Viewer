@@ -27,6 +27,8 @@ This module will take .ngchm file generated from GenePattern [Next.Gen.Cluster.H
 4. Upon the completion of loading NGCHM file, you will see the loaded heatmap in notebook. 
 5. For better visualization, click on the gear icon at the upper right corner of the viewer cell and choose ```Pop Out Visualizer```. The NGCHM viewer will open in another tab. 
 
+![image](https://user-images.githubusercontent.com/22623882/83205473-43f88600-a114-11ea-90c0-f12680d3f845.png)
+
 ## Output
 You could view NG-CHM inside the notebook, and perform all the operations. If you prefer a full size NG-CHM, click on the gear icon at the upper right corner of the cell, select "Pop Out Visualizer", the NG-CHM will open in another tab. For more operations on NG-CHM, please check NG-CHMs website](http://www.ngchm.net/).
 
