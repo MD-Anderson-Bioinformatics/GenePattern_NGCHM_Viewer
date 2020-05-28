@@ -1,4 +1,4 @@
-## 	Next.Gen.Clustered.Heat.Map.Viewer
+## 	Next.Gen.Cluster.Heat.Map.Viewer
 A GenePattern Module to view Next-Generation Clustered Heat Maps (NG-CHMs) in GenePattern Notebook.
 For details about NG-CHM, please check [NG-CHMs website](http://www.ngchm.net/)
 
@@ -18,11 +18,11 @@ NG-CHMs include the following interactive capabilities (among many others):
 * Capture of all metadata necessary to reproduce any chosen state of the map, even months or years later.
 
 ## Input
-This module will take .ngchm file generated from GenePattern [Next.Gen.Clustered.Heat.Map.Builder](https://md-anderson-bioinformatics.github.io/GenePattern_NGCHM_BasicBuilder/) or any other NGCHM Builders ([Galaxy Builder](https://github.com/MD-Anderson-Bioinformatics/NG-CHM_Galaxy),[R buidler](https://github.com/MD-Anderson-Bioinformatics/NGCHM-R) or [online builder](http://build.ngchm.net/NGCHM-web-builder/)) and display the NGCHM in jupyter notebook.
+This module will take .ngchm file generated from GenePattern [Next.Gen.Cluster.Heat.Map.Builder](https://md-anderson-bioinformatics.github.io/GenePattern_NGCHM_BasicBuilder/) or any other NGCHM Builders ([Galaxy Builder](https://github.com/MD-Anderson-Bioinformatics/NG-CHM_Galaxy),[R buidler](https://github.com/MD-Anderson-Bioinformatics/NGCHM-R) or [online builder](http://build.ngchm.net/NGCHM-web-builder/)) and display the NGCHM in jupyter notebook.
 
 ## Use Next.Gen.Cluster.Heat.Map.Viewer with GenePattern Notebook 
 1. Download [Sample NGCHM file](https://github.com/MD-Anderson-Bioinformatics/GenePattern_NGCHM_Viewer/blob/master/test_data/400x400.ngchm) to local.
-2. After loading viewer module, upload 400x400.ngchm by clicking on ```Upload File``` button and choose the sample NGCHM file. If NGCHM file is generated using [Next.Gen.Clustered.Heat.Map.Builder](https://md-anderson-bioinformatics.github.io/GenePattern_NGCHM_BasicBuilder/), you could just paste the URL of generated NGCHM into field ```ngchm file```.
+2. After loading viewer module, upload 400x400.ngchm by clicking on ```Upload File``` button and choose the sample NGCHM file. If NGCHM file is generated using [Next.Gen.Cluster.Heat.Map.Builder](https://md-anderson-bioinformatics.github.io/GenePattern_NGCHM_BasicBuilder/), you could just paste the URL of generated NGCHM into field ```ngchm file```.
 3. Click ```Run```.
 4. Upon the completion of loading NGCHM file, you will see the loaded heatmap in notebook. 
 5. For better visualization, click on the gear icon at the upper right corner of the viewer cell and choose ```Pop Out Visualizer```. The NGCHM viewer will open in another tab. 
