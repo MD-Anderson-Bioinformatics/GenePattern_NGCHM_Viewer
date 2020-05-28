@@ -1,19 +1,19 @@
-## Next.Generation.Clustered.Heat.Map.Viewer
+## Next.Gen.Cluster.Heat.Map.Viewer
 A GenePattern Module to view NGCHM in GenePattern Notebook.
 
 
-## Use Next.Generation.Clustered.Heat.Map.Viewer with GenePattern Notebook 
+## Use Next.Gen.Cluster.Heat.Map.Viewer with GenePattern Notebook 
 1. After login, click on the dropdown list to insert a GenePattern Cell.
-2. Select Next.Generation.Clustered.Heat.Map.Viewer module.
+2. Select Next.Gen.Cluster.Heat.Map.Viewer module.
 3. Upload a ngchm file or paste URL to a ngchm file. 
 [Sample NGCHM File](https://github.com/MD-Anderson-Bioinformatics/GenePattern_NGCHM_Viewer/blob/master/test_data/Galaxy400x400-noCovariates.ngchm)
 
-## Install Next.Generation.Clustered.Heat.Map.Viewer module on local GenePattern Server
+## Install Next.Gen.Cluster.Heat.Map.Viewer module on local GenePattern Server
 1. Download [GenePattern](https://github.com/genepattern/genepattern-server/releases/tag/v3.9.11-rc.4%2Bb228), double click to install on local machine. 
 2. Input Email, the app will ask to restart, double click on icon again.There is no need to install other modules if you only want to try NGCHM builder and viewer. 
 3. Type "ant" to build zip file for the module.
 4. Click on "Modules & Piplelines", then click on "Install from zip".
-4. Chose to upload Next.Generation.Clustered.Heat.Map.Viewer.zip file in the build folder.
+4. Chose to upload Next.Gen.Cluster.Heat.Map.Viewer.zip file in the build folder.
 
 ## Install GenePattern NoteBook manually to Jupyter Notebook 
 1. Jupyter notebook is installed in Anaconda.
