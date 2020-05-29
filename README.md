@@ -1,5 +1,5 @@
 ## Next.Gen.Cluster.Heat.Map.Viewer
-A GenePattern Module to view NGCHM in GenePattern Notebook.
+A GenePattern Module to view NGCHM in GenePattern Notebook.[Detail document.](https://md-anderson-bioinformatics.github.io/GenePattern_NGCHM_Viewer/)
 
 
 ## Use Next.Gen.Cluster.Heat.Map.Viewer with GenePattern Notebook 
