@@ -12,7 +12,7 @@
                 }
             }
             if (! inIframe()){
-                document.getElementById("container").style.height="90vh"
+                document.getElementById("ngChmContainer").style.height="90vh"
             }
         }
     </script>
@@ -39,7 +39,7 @@
                 var blob = new Blob([this.response], {type: 'compress/zip'});
                 document.getElementById('loader').style.display = '';
                 NgChm.UTIL.displayFileModeCHM(blob)
-                document.getElementById("container").addEventListener('wheel', NgChm.SEL.handleScroll, false);
+                document.getElementById("ngChmContainer").addEventListener('wheel', NgChm.SEL.handleScroll, false);
                 document.getElementById("detail_canvas").focus();
             }
         };
@@ -47,7 +47,7 @@
 
     </script>
     <style>
-        #container{
+        #ngChmContainer{
             height:80vh;
         }
 
